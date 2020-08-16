@@ -1,6 +1,8 @@
 # Chest-Xray-FastAI
  Image Classification of Chest X-Ray to detect pneumonia
 
+ ![Clean X-Ray](./images/normal.jpeg) ![Pneumonia](./images/pneumonia.jpeg)
+
 # Summary:
 This classifier was created using the Fastai library which is built upon Pytorch. In this project I have built a model from the Chest X-Ray dataset curated by Kaggle to predict if a patient has pneumonia using chest x-ray images. There was a total of about ~5000 images with a total size of just over 1 GB. This model used transfer learning and started with the ResNet34 architecture and was fine tuned for this case. Transfer learning allowed for faster training time, and cultivated a more accurate model that needed less data than from scratch. The final result was an image classification project that was able to detect pneumonia with ~92% accuracy overall.
 
